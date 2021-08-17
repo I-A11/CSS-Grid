@@ -1,9 +1,10 @@
 /* CSS Variables */
 :root {
-  --primary: #ddd;
-  --dark: #333;
+  --primary: #36e9e9;
+  --dark: #181717;
   --light: #fff;
-  --red: #dd1039;
+  --red: #b80c2f;
+  --blue: #040466;
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
@@ -13,18 +14,19 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-size: Arial, Helvetica;
-  color: var(--dark);
+  /* color: var(--dark); */
 }
 
 body {
-  background: #ccc;
+  background: #ebe4e4;
   margin: 30px 50px;
   line-height: 1.4;
 }
 
 .btn {
-  background: var(--dark);
+  background: var(--blue);
   color: var(--light);
   padding: 0.6rem 1.3rem;
   text-decoration: none;
@@ -51,12 +53,12 @@ img {
 }
 
 .main-nav a {
-  background: var(--primary);
+  background-color: var(--blue);
+  color: var(--light);
   display: block;
   text-decoration: none;
   padding: 0.8rem;
   text-align: center;
-  color: var(--dark);
   text-transform: uppercase;
   font-size: 1.1rem;
   box-shadow: var(--shadow);
@@ -66,6 +68,10 @@ img {
 .main-nav a:hover {
   background: var(--red);
   color: var(--light);
+}
+
+.nav-links {
+  color: var(--primary);
 }
 
 /* Top container */
@@ -81,7 +87,7 @@ img {
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: url("./imgaes/showcase.jpg");
+  background: url("./imgaes/img-desk-1.jpeg");
   background-size: cover;
   background-position: center;
   padding: 3rem;
