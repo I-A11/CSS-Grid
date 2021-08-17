@@ -222,6 +222,13 @@ footer {
 
 /* shop.html page */
 
+.products-container {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--red);
+  letter-spacing: 2px;
+}
+
 .search {
   display: flex;
   justify-content: center;
@@ -254,4 +261,27 @@ footer {
 
 .search select:focus {
   outline: none;
+}
+
+.products {
+  display: grid;
+  padding: 2rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  justify-items: center;
+  align-items: center;
+}
+
+.products im {
+  width: 100%;
+}
+.products h3 {
+  font-size: 1.5rem;
+  color: var(--blue);
+}
+
+.products p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--red);
 }
