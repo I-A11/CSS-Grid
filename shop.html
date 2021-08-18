@@ -25,84 +25,84 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-      <div class="products-container">
-        <h1>Products</h1>
+      <div class="main">
+        <div class="products-container">
+          <h1>Products</h1>
+        </div>
+        <section class="search">
+          <input type="text" placeholder="Search" name="search" id="search" /><i
+            class="fas fa-search"
+          ></i>
+          <select class="filter-products">
+            <option class="filter" value="all">All</option>
+            <option class="filter" value="laptop">Laptop</option>
+            <option class="filter" value="monitor">Monitor</option>
+            <option class="filter" value="mobile">Mobile</option>
+          </select>
+        </section>
+        <section class="products" id="products">
+          <div class="box product-details laptop">
+            <img src="./imgaes/shop-1.jpeg" alt="" />
+            <h3>HP Laptop</h3>
+            <p>price: $1500</p>
+          </div>
+          <div class="box product-details laptop">
+            <img src="./imgaes/shop-3.jpeg" alt="" />
+            <h3>Axiom Laptop</h3>
+            <p>price: $1750</p>
+          </div>
+          <div class="box product-details monitor">
+            <img src="./imgaes/shop-2.jpeg" alt="" />
+            <h3>Apple Monitor</h3>
+            <p>price: $2500</p>
+          </div>
+          <div class="box product-details laptop">
+            <img src="./imgaes/shop-4.jpeg" alt="" />
+            <h3>Laptop iMac</h3>
+            <p>price: $3500</p>
+          </div>
+          <div class="box product-details laptop">
+            <img src="./imgaes/shop-6.jpeg" alt="" />
+            <h3>LG Laptop</h3>
+            <p>price: $500</p>
+          </div>
+          <div class="box product-details monitor">
+            <img src="./imgaes/shop-5.jpeg" alt="" />
+            <h3>Lenovo Monitor</h3>
+            <p>price: $400</p>
+          </div>
+          <div class="box product-details monitor">
+            <img src="./imgaes/shop-7.jpeg" alt="" />
+            <h3>Dell Monitor</h3>
+            <p>price: $250</p>
+          </div>
+          <div class="box product-details monitor">
+            <img src="./imgaes/shop-9.jpeg" alt="" />
+            <h3>Samsung Monitor</h3>
+            <p>price: $450</p>
+          </div>
+          <div class="box product-details laptop">
+            <img src="./imgaes/shop-8.jpeg" alt="" />
+            <h3>Laptop iMac i5</h3>
+            <p>price: $2500</p>
+          </div>
+          <div class="box product-details mobile">
+            <img src="./imgaes/shop-10.jpeg" alt="" />
+            <h3>iphone x Mobile</h3>
+            <p>price: $1200</p>
+          </div>
+          <div class="box product-details mobile">
+            <img src="./imgaes/shop-12.png" alt="" />
+            <h3>Samsung Fold Mobile</h3>
+            <p>price: $1650</p>
+          </div>
+          <div class="box product-details mobile">
+            <img src="./imgaes/shop-11.jpeg" alt="" />
+            <h3>iphone 11 Mobile</h3>
+            <p>price: $1900</p>
+          </div>
+        </section>
       </div>
-      <section class="search">
-        <input type="text" placeholder="Search" name="search" id="search" /><i
-          class="fas fa-search"
-        ></i>
-        <select id="filter-container">
-          <option id="all">All</option>
-          <option id="price assending">Price Assending</option>
-          <option id="price descending">Price Descending</option>
-          <option id="laptop">Laptop</option>
-          <option id="monitor">Monitor</option>
-          <option id="mobile">Mobile</option>
-        </select>
-      </section>
-      <section class="products" id="products">
-        <div class="box product-details">
-          <img src="./imgaes/shop-1.jpeg" alt="" />
-          <h3>HP Laptop</h3>
-          <p>price: $1500</p>
-        </div>
-        <div class="box product-details">
-          <img src="./imgaes/shop-3.jpeg" alt="" />
-          <h3>Axiom Laptop</h3>
-          <p>price: $1750</p>
-        </div>
-        <div class="box product-details">
-          <img src="./imgaes/shop-2.jpeg" alt="" />
-          <h3>Apple Monitor</h3>
-          <p>price: $2500</p>
-        </div>
-        <div class="box product-details">
-          <img src="./imgaes/shop-4.jpeg" alt="" />
-          <h3>Laptop iMac</h3>
-          <p>price: $3500</p>
-        </div>
-        <div class="box product-details">
-          <img src="./imgaes/shop-6.jpeg" alt="" />
-          <h3>LG Laptop</h3>
-          <p>price: $500</p>
-        </div>
-        <div class="box product-details">
-          <img src="./imgaes/shop-5.jpeg" alt="" />
-          <h3>Lenovo Monitor</h3>
-          <p>price: $400</p>
-        </div>
-        <div class="box product-details">
-          <img src="./imgaes/shop-7.jpeg" alt="" />
-          <h3>Dell Monitor</h3>
-          <p>price: $250</p>
-        </div>
-        <div class="box product-details">
-          <img src="./imgaes/shop-9.jpeg" alt="" />
-          <h3>Samsung Monitor</h3>
-          <p>price: $450</p>
-        </div>
-        <div class="box product-details">
-          <img src="./imgaes/shop-8.jpeg" alt="" />
-          <h3>Laptop iMac i5</h3>
-          <p>price: $2500</p>
-        </div>
-        <div class="box product-details">
-          <img src="./imgaes/shop-10.jpeg" alt="" />
-          <h3>iphone x Mobile</h3>
-          <p>price: $1200</p>
-        </div>
-        <div class="box product-details">
-          <img src="./imgaes/shop-12.png" alt="" />
-          <h3>Samsung Fold Mobile</h3>
-          <p>price: $1650</p>
-        </div>
-        <div class="box product-details">
-          <img src="./imgaes/shop-11.jpeg" alt="" />
-          <h3>iPad Air</h3>
-          <p>price: $900</p>
-        </div>
-      </section>
 
       <!-- footer -->
       <footer id="contact">

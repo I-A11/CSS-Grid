@@ -185,6 +185,8 @@ footer {
   color: var(--light);
   text-align: center;
   padding: 1rem;
+  /* position: absolute;
+  bottom: 0; */
 }
 
 /* media quires */
@@ -221,6 +223,9 @@ footer {
 }
 
 /* shop.html page */
+.main {
+  min-height: 90vh;
+}
 
 .products-container {
   text-align: center;
