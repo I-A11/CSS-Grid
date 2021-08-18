@@ -185,8 +185,6 @@ footer {
   color: var(--light);
   text-align: center;
   padding: 1rem;
-  /* position: absolute;
-  bottom: 0; */
 }
 
 /* media quires */
@@ -289,4 +287,16 @@ footer {
   font-size: 1.2rem;
   font-weight: bold;
   color: var(--red);
+}
+
+/* media quries */
+@media screen and (max-width: 500px) {
+  .search input {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .search select {
+    display: none;
+  }
 }
